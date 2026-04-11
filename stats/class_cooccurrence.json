@@ -1,0 +1,36 @@
+{
+  "type": "matrix",
+  "labels": [
+    "alligator",
+    "longitudinal",
+    "sealed",
+    "transverse"
+  ],
+  "data": [
+    [
+      510,
+      20,
+      1,
+      15
+    ],
+    [
+      20,
+      520,
+      1,
+      29
+    ],
+    [
+      1,
+      1,
+      328,
+      0
+    ],
+    [
+      15,
+      29,
+      0,
+      945
+    ]
+  ],
+  "title": "Class Co-occurrence (images containing class pairs)"
+}

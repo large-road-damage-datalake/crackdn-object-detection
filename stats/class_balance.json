@@ -1,0 +1,41 @@
+{
+  "columns": [
+    "Class",
+    "Share(%)",
+    "Objects",
+    "Objects per image"
+  ],
+  "data": [
+    [
+      "transverse",
+      39.79,
+      1093,
+      0.448
+    ],
+    [
+      "alligator",
+      22.82,
+      627,
+      0.257
+    ],
+    [
+      "longitudinal",
+      21.88,
+      601,
+      0.247
+    ],
+    [
+      "sealed",
+      15.51,
+      426,
+      0.175
+    ]
+  ],
+  "options": {
+    "sort": {
+      "columnIndex": 2,
+      "order": "desc"
+    },
+    "pageSize": 50
+  }
+}

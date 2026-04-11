@@ -1,0 +1,17 @@
+{
+  "total_images": 2438,
+  "total_annotations": 2747,
+  "total_classes": 4,
+  "splits_breakdown": {
+    "data": {
+      "images": 2438,
+      "annotations": 2747,
+      "classes": {
+        "transverse": 1093,
+        "alligator": 627,
+        "longitudinal": 601,
+        "sealed": 426
+      }
+    }
+  }
+}

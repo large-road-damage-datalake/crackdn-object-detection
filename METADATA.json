@@ -1,0 +1,150 @@
+{
+  "schema_version": "1.0",
+  "basic_info": {
+    "id": "crackdn-object-detection",
+    "name": "CrackDN Object Detection",
+    "short_name": "crackdn-od",
+    "description": "Object detection packaging of CrackDataset_DL_HY for sealed/unsealed and multi-type pavement crack detection in complex backgrounds.",
+    "year": 2019
+  },
+  "project_context": {
+    "task": "object_detection",
+    "tasks": [
+      "object_detection"
+    ],
+    "damage_types": [
+      "alligator",
+      "longitudinal",
+      "transverse",
+      "sealed"
+    ]
+  },
+  "imaging_setup": {
+    "camera": "Vehicle-mounted and handheld acquisition devices",
+    "resolution": "1280x960 source images",
+    "lighting_conditions": "Normal, unbalanced illumination, markings, and shading",
+    "capture_height_mm": "Not reported",
+    "geotagged": false
+  },
+  "annotation_schema": [
+    {
+      "type": "bounding_box",
+      "description": "VOC XML box-level crack labels",
+      "classes": [
+        {
+          "id": 1,
+          "name": "alligator",
+          "description": "Alligator crack",
+          "color": "#CC0000"
+        },
+        {
+          "id": 2,
+          "name": "longitudinal",
+          "description": "Longitudinal crack",
+          "color": "#FF7F0E"
+        },
+        {
+          "id": 3,
+          "name": "transverse",
+          "description": "Transverse crack",
+          "color": "#1F77B4"
+        },
+        {
+          "id": 4,
+          "name": "sealed",
+          "description": "Sealed crack",
+          "color": "#2CA02C"
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "n_images": 2438,
+    "n_annotations": 2747,
+    "n_images_with_annotations": 2438,
+    "average_annotations_per_image": 1.1267432321575062,
+    "image_format": "voc",
+    "class_distribution": {
+      "transverse": 1093,
+      "alligator": 627,
+      "longitudinal": 601,
+      "sealed": 426
+    },
+    "split": {
+      "data": {
+        "n_images": 2438,
+        "percentage": 1.0
+      }
+    }
+  },
+  "geographic_coverage": {
+    "countries": [
+      {
+        "name": "Canada",
+        "image_count": 2438
+      }
+    ],
+    "temporal_scope": "Published 2019"
+  },
+  "quality_assurance": {
+    "annotation_quality": "Box-level labels provided in source repository",
+    "inter_annotator_agreement": "Not reported",
+    "review_status": "Published research dataset"
+  },
+  "authors": [
+    {
+      "name": "Ju Huyan",
+      "affiliation": "Southeast University",
+      "role": "Dataset Creator"
+    },
+    {
+      "name": "Wei Li",
+      "affiliation": "Chang'an University",
+      "role": "Dataset Creator"
+    },
+    {
+      "name": "Susan Tighe",
+      "affiliation": "University of Waterloo",
+      "role": "Dataset Creator"
+    },
+    {
+      "name": "Junzhi Zhai",
+      "affiliation": "Chang'an University",
+      "role": "Dataset Creator"
+    },
+    {
+      "name": "Zhengchao Xu",
+      "affiliation": "Chang'an University",
+      "role": "Dataset Creator"
+    },
+    {
+      "name": "Yao Chen",
+      "affiliation": "Chang'an University",
+      "role": "Dataset Creator"
+    }
+  ],
+  "license": "Non-commercial research use only",
+  "links": {
+    "github": "https://github.com/large-road-damage-datalake/crackdn-object-detection",
+    "download": "https://github.com/juhuyan/CrackDataset_DL_HY/tree/master",
+    "paper": "https://doi.org/10.1016/j.autcon.2019.102946",
+    "homepage": "https://github.com/juhuyan/CrackDataset_DL_HY/tree/master"
+  },
+  "citation": {
+    "bibtex": "@article{huyan2019detection,\n  title = {Detection of sealed and unsealed cracks with complex backgrounds using deep convolutional neural network},\n  author = {Huyan, Ju and Li, Wei and Tighe, Susan and Zhai, Junzhi and Xu, Zhengchao and Chen, Yao},\n  journal = {Automation in Construction},\n  volume = {107},\n  pages = {102946},\n  year = {2019},\n  doi = {10.1016/j.autcon.2019.102946}\n}"
+  },
+  "tags": [
+    "object-detection",
+    "pavement-crack",
+    "crackdn",
+    "voc",
+    "sealed-crack"
+  ],
+  "source_publication": {
+    "dataset_doi": "Not provided",
+    "article_doi": "10.1016/j.autcon.2019.102946",
+    "article_title": "Detection of sealed and unsealed cracks with complex backgrounds using deep convolutional neural network",
+    "journal": "Automation in Construction",
+    "year": 2019
+  }
+}

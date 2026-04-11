@@ -1,0 +1,25 @@
+{
+  "type": "bar",
+  "title": "Class Distribution",
+  "data": {
+    "labels": [
+      "transverse",
+      "alligator",
+      "longitudinal",
+      "sealed"
+    ],
+    "values": [
+      1093,
+      627,
+      601,
+      426
+    ],
+    "total": 2747,
+    "percentages": [
+      39.79,
+      22.82,
+      21.88,
+      15.51
+    ]
+  }
+}

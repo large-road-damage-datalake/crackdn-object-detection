@@ -1,0 +1,26 @@
+{
+  "type": "treemap",
+  "title": "Class Treemap",
+  "series": [
+    {
+      "data": [
+        {
+          "x": "transverse",
+          "y": 1093
+        },
+        {
+          "x": "alligator",
+          "y": 627
+        },
+        {
+          "x": "longitudinal",
+          "y": 601
+        },
+        {
+          "x": "sealed",
+          "y": 426
+        }
+      ]
+    }
+  ]
+}
