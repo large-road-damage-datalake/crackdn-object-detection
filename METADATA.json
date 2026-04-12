@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "basic_info": {
     "id": "crackdn-object-detection",
-    "name": "CrackDN Object Detection",
+    "name": "CrackDN",
     "short_name": "crackdn-od",
     "description": "Object detection packaging of CrackDataset_DL_HY for sealed/unsealed and multi-type pavement crack detection in complex backgrounds.",
     "year": 2019
