@@ -1,26 +1,27 @@
 {
   "type": "treemap",
-  "title": "Class Treemap",
+  "title": "Average area of class objects on image",
   "series": [
     {
       "data": [
         {
           "x": "transverse",
-          "y": 1093
+          "y": 11.9777
         },
         {
           "x": "alligator",
-          "y": 627
+          "y": 35.4144
         },
         {
           "x": "longitudinal",
-          "y": 601
+          "y": 8.4718
         },
         {
           "x": "sealed",
-          "y": 426
+          "y": 15.1582
         }
       ]
     }
-  ]
+  ],
+  "value_unit": "%"
 }

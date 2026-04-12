@@ -21,6 +21,9 @@
   },
   "imaging_setup": {
     "camera": "Vehicle-mounted and handheld acquisition devices",
+    "camera_viewpoint": [
+      "top-down"
+    ],
     "resolution": "1280x960 source images",
     "lighting_conditions": "Normal, unbalanced illumination, markings, and shading",
     "capture_height_mm": "Not reported",
@@ -61,7 +64,7 @@
   "statistics": {
     "n_images": 2438,
     "n_annotations": 2747,
-    "n_images_with_annotations": 2438,
+    "n_images_with_annotations": 2240,
     "average_annotations_per_image": 1.1267432321575062,
     "image_format": "voc",
     "class_distribution": {
@@ -73,7 +76,9 @@
     "split": {
       "data": {
         "n_images": 2438,
-        "percentage": 1.0
+        "percentage": 1.0,
+        "n_images_with_annotations": 2240,
+        "annotation_coverage": 0.9188
       }
     }
   },

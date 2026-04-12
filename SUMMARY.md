@@ -1,6 +1,6 @@
 # Summary
 
-- Dataset package: CrackDN Object Detection
+- Dataset package: CrackDN
 - Source dataset: CrackDataset_DL_HY (GitHub)
 - Task: object_detection
 - Image count: 2438

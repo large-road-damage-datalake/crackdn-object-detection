@@ -1,0 +1,323 @@
+{
+  "version": 1,
+  "default_view": "all",
+  "view_order": [
+    "all"
+  ],
+  "views": {
+    "all": {
+      "id": "all",
+      "label": "All",
+      "split_names": [
+        "data"
+      ],
+      "summary": {
+        "num_images": 2438,
+        "num_annotations": 2747,
+        "num_images_with_annotations": 2240,
+        "num_images_without_annotations": 198,
+        "num_classes": 4,
+        "annotation_coverage": 0.918786,
+        "class_distribution": {
+          "transverse": 1093,
+          "alligator": 627,
+          "longitudinal": 601,
+          "sealed": 426
+        }
+      },
+      "artifacts": {
+        "class_balance": {
+          "columns": [
+            "Class",
+            "Images",
+            "Objects",
+            "Count on image, average",
+            "Area on image, average (%)"
+          ],
+          "data": [
+            [
+              "transverse",
+              945,
+              1093,
+              1.1566,
+              11.9777
+            ],
+            [
+              "alligator",
+              510,
+              627,
+              1.2294,
+              35.4144
+            ],
+            [
+              "longitudinal",
+              520,
+              601,
+              1.1558,
+              8.4718
+            ],
+            [
+              "sealed",
+              328,
+              426,
+              1.2988,
+              15.1582
+            ]
+          ],
+          "description": "Images column counts images containing at least one object of class.",
+          "options": {
+            "sort": {
+              "columnIndex": 2,
+              "order": "desc"
+            },
+            "pageSize": 100
+          }
+        },
+        "class_cooccurrence": {
+          "type": "matrix",
+          "labels": [
+            "alligator",
+            "longitudinal",
+            "sealed",
+            "transverse"
+          ],
+          "data": [
+            [
+              510,
+              20,
+              1,
+              15
+            ],
+            [
+              20,
+              520,
+              1,
+              29
+            ],
+            [
+              1,
+              1,
+              328,
+              0
+            ],
+            [
+              15,
+              29,
+              0,
+              945
+            ]
+          ],
+          "title": "Co-occurrence Matrix",
+          "description": "Cell [i,j] is number of images that contain both classes i and j."
+        },
+        "class_sizes": {
+          "columns": [
+            "Class",
+            "Object count",
+            "Avg area (%)",
+            "Max area (%)",
+            "Min area (%)",
+            "Min height (px)",
+            "Min height (%)",
+            "Max height (px)",
+            "Max height (%)",
+            "Avg height (px)",
+            "Avg height (%)"
+          ],
+          "data": [
+            [
+              "transverse",
+              1093,
+              10.3559,
+              88.847,
+              0.2941,
+              22.0,
+              2.2917,
+              2040.0,
+              99.6094,
+              204.23,
+              16.1232
+            ],
+            [
+              "alligator",
+              627,
+              28.8059,
+              96.1751,
+              0.3906,
+              44.0,
+              4.5833,
+              2047.0,
+              100.2083,
+              1083.83,
+              69.5147
+            ],
+            [
+              "longitudinal",
+              601,
+              7.33,
+              72.6706,
+              0.3459,
+              48.0,
+              5.0,
+              2047.0,
+              100.1042,
+              805.72,
+              66.2412
+            ],
+            [
+              "sealed",
+              426,
+              11.6711,
+              91.305,
+              0.4395,
+              57.0,
+              5.9375,
+              957.0,
+              99.6875,
+              569.81,
+              59.3557
+            ]
+          ],
+          "description": "Area and height are relative to image size where (%) columns are 0-100 scale."
+        },
+        "objects_distribution": {
+          "type": "heatmap",
+          "title": "Objects on images - distribution for every class",
+          "x_labels": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "y_labels": [
+            "transverse",
+            "alligator",
+            "longitudinal",
+            "sealed"
+          ],
+          "z": [
+            [
+              1493,
+              819,
+              108,
+              15,
+              2,
+              1
+            ],
+            [
+              1928,
+              401,
+              101,
+              8,
+              0,
+              0
+            ],
+            [
+              1918,
+              446,
+              70,
+              2,
+              1,
+              1
+            ],
+            [
+              2110,
+              245,
+              71,
+              9,
+              3,
+              0
+            ]
+          ],
+          "description": "Value = number of images where class has exactly x objects."
+        },
+        "classes_per_image": {
+          "type": "histogram",
+          "title": "Distinct classes per image",
+          "series": [
+            {
+              "name": "classes",
+              "data": [
+                {
+                  "x": "0",
+                  "y": 198
+                },
+                {
+                  "x": "1",
+                  "y": 2180
+                },
+                {
+                  "x": "2",
+                  "y": 57
+                },
+                {
+                  "x": "3",
+                  "y": 3
+                }
+              ]
+            }
+          ]
+        },
+        "classes_treemap": {
+          "type": "treemap",
+          "title": "Average area of class objects on image",
+          "series": [
+            {
+              "data": [
+                {
+                  "x": "transverse",
+                  "y": 11.9777
+                },
+                {
+                  "x": "alligator",
+                  "y": 35.4144
+                },
+                {
+                  "x": "longitudinal",
+                  "y": 8.4718
+                },
+                {
+                  "x": "sealed",
+                  "y": 15.1582
+                }
+              ]
+            }
+          ],
+          "value_unit": "%"
+        }
+      },
+      "samples_summary": {
+        "sample_count": 10,
+        "slider_pairs": 10,
+        "samples_dir": "visualizations/samples",
+        "samples_manifest": "visualizations/samples/samples_manifest.json",
+        "annotated_samples_dir": "visualizations/samples/annotated",
+        "sample_annotations_dir": "visualizations/samples/annotations"
+      },
+      "spatial_heatmaps": {
+        "generated": true,
+        "dir": "visualizations/spatial_heatmaps",
+        "classes": [
+          {
+            "class": "transverse",
+            "file": "visualizations/spatial_heatmaps/transverse.png"
+          },
+          {
+            "class": "alligator",
+            "file": "visualizations/spatial_heatmaps/alligator.png"
+          },
+          {
+            "class": "longitudinal",
+            "file": "visualizations/spatial_heatmaps/longitudinal.png"
+          },
+          {
+            "class": "sealed",
+            "file": "visualizations/spatial_heatmaps/sealed.png"
+          }
+        ]
+      }
+    }
+  }
+}

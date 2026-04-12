@@ -1,0 +1,22 @@
+{
+  "generated": true,
+  "dir": "visualizations/spatial_heatmaps",
+  "classes": [
+    {
+      "class": "transverse",
+      "file": "visualizations/spatial_heatmaps/transverse.png"
+    },
+    {
+      "class": "alligator",
+      "file": "visualizations/spatial_heatmaps/alligator.png"
+    },
+    {
+      "class": "longitudinal",
+      "file": "visualizations/spatial_heatmaps/longitudinal.png"
+    },
+    {
+      "class": "sealed",
+      "file": "visualizations/spatial_heatmaps/sealed.png"
+    }
+  ]
+}

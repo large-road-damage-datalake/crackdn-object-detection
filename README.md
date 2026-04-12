@@ -1,8 +1,8 @@
-# CrackDN Object Detection
+# CrackDN
 
 ## Overview
 
-CrackDN Object Detection is a task-specific package derived from CrackDataset_DL_HY (CrackDN-related box-level data).
+CrackDN is a task-specific package derived from CrackDataset_DL_HY (CrackDN-related box-level data).
 
 - Task: object_detection
 - Images: 2438
