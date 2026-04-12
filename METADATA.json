@@ -17,7 +17,10 @@
       "longitudinal",
       "transverse",
       "sealed"
-    ]
+    ],
+    "task_classification": {
+      "primary_task": "object_detection"
+    }
   },
   "imaging_setup": {
     "camera": "Vehicle-mounted and handheld acquisition devices",
@@ -66,6 +69,9 @@
     "n_annotations": 2747,
     "n_images_with_annotations": 2240,
     "average_annotations_per_image": 1.1267432321575062,
+    "dataset_size": "1.55 GB",
+    "dataset_size_bytes": 1663259476,
+    "dataset_file_count": 4816,
     "image_format": "voc",
     "class_distribution": {
       "transverse": 1093,
@@ -78,7 +84,10 @@
         "n_images": 2438,
         "percentage": 1.0,
         "n_images_with_annotations": 2240,
-        "annotation_coverage": 0.9188
+        "annotation_coverage": 0.9188,
+        "dataset_size": "1.55 GB",
+        "dataset_size_bytes": 1663259476,
+        "dataset_file_count": 4816
       }
     }
   },
