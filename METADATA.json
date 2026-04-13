@@ -27,10 +27,20 @@
     "camera_viewpoint": [
       "top-down"
     ],
-    "resolution": "1280x960 source images",
+    "resolution": "1280x960, 2048x2048",
     "lighting_conditions": "Normal, unbalanced illumination, markings, and shading",
     "capture_height_mm": "Not reported",
-    "geotagged": false
+    "geotagged": false,
+    "resolution_details": [
+      {
+        "resolution": "1280x960",
+        "count": 1721
+      },
+      {
+        "resolution": "2048x2048",
+        "count": 717
+      }
+    ]
   },
   "annotation_schema": [
     {
