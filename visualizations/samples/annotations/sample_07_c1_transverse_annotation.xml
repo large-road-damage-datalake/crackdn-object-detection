@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
 <annotation>
 	<folder>新建文件夹 (2)</folder>
 	<filename>092916131-004377-004377_37.JPG</filename>
@@ -6,8 +7,8 @@
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>2048</width>
-		<height>2048</height>
+		<width>1280</width>
+		<height>1280</height>
 		<depth>1</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,10 +18,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>5</xmin>
-			<ymin>43</ymin>
-			<xmax>1583</xmax>
-			<ymax>208</ymax>
+			<xmin>3</xmin>
+			<ymin>27</ymin>
+			<xmax>989</xmax>
+			<ymax>130</ymax>
 		</bndbox>
 	</object>
 </annotation>

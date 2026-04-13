@@ -8,9 +8,17 @@
       ],
       "num_classes": 1,
       "objects": 1,
+      "image_size": {
+        "width": 1280,
+        "height": 960
+      },
+      "resized_from": {
+        "width": 1280,
+        "height": 960
+      },
       "annotation_mode": "bbox",
       "annotation_format": "voc",
-      "annotated_file": "annotated/sample_01_c1_sealed_annotated.png",
+      "annotated_file": null,
       "annotation_file": "annotations/sample_01_c1_sealed_annotation.xml",
       "slider_ready": true
     },
@@ -22,9 +30,17 @@
       ],
       "num_classes": 1,
       "objects": 1,
+      "image_size": {
+        "width": 1280,
+        "height": 960
+      },
+      "resized_from": {
+        "width": 1280,
+        "height": 960
+      },
       "annotation_mode": "bbox",
       "annotation_format": "voc",
-      "annotated_file": "annotated/sample_02_c1_longitudinal_annotated.png",
+      "annotated_file": null,
       "annotation_file": "annotations/sample_02_c1_longitudinal_annotation.xml",
       "slider_ready": true
     },
@@ -36,9 +52,17 @@
       ],
       "num_classes": 1,
       "objects": 1,
+      "image_size": {
+        "width": 1280,
+        "height": 960
+      },
+      "resized_from": {
+        "width": 1280,
+        "height": 960
+      },
       "annotation_mode": "bbox",
       "annotation_format": "voc",
-      "annotated_file": "annotated/sample_03_c1_transverse_annotated.png",
+      "annotated_file": null,
       "annotation_file": "annotations/sample_03_c1_transverse_annotation.xml",
       "slider_ready": true
     },
@@ -50,9 +74,17 @@
       ],
       "num_classes": 1,
       "objects": 2,
+      "image_size": {
+        "width": 1280,
+        "height": 1280
+      },
+      "resized_from": {
+        "width": 2048,
+        "height": 2048
+      },
       "annotation_mode": "bbox",
       "annotation_format": "voc",
-      "annotated_file": "annotated/sample_04_c1_alligator_annotated.png",
+      "annotated_file": null,
       "annotation_file": "annotations/sample_04_c1_alligator_annotation.xml",
       "slider_ready": true
     },
@@ -64,9 +96,17 @@
       ],
       "num_classes": 1,
       "objects": 1,
+      "image_size": {
+        "width": 1280,
+        "height": 960
+      },
+      "resized_from": {
+        "width": 1280,
+        "height": 960
+      },
       "annotation_mode": "bbox",
       "annotation_format": "voc",
-      "annotated_file": "annotated/sample_05_c1_transverse_annotated.png",
+      "annotated_file": null,
       "annotation_file": "annotations/sample_05_c1_transverse_annotation.xml",
       "slider_ready": true
     },
@@ -79,9 +119,17 @@
       ],
       "num_classes": 2,
       "objects": 2,
+      "image_size": {
+        "width": 1280,
+        "height": 960
+      },
+      "resized_from": {
+        "width": 1280,
+        "height": 960
+      },
       "annotation_mode": "bbox",
       "annotation_format": "voc",
-      "annotated_file": "annotated/sample_06_c2_longitudinal-transverse_annotated.png",
+      "annotated_file": null,
       "annotation_file": "annotations/sample_06_c2_longitudinal-transverse_annotation.xml",
       "slider_ready": true
     },
@@ -93,9 +141,17 @@
       ],
       "num_classes": 1,
       "objects": 1,
+      "image_size": {
+        "width": 1280,
+        "height": 1280
+      },
+      "resized_from": {
+        "width": 2048,
+        "height": 2048
+      },
       "annotation_mode": "bbox",
       "annotation_format": "voc",
-      "annotated_file": "annotated/sample_07_c1_transverse_annotated.png",
+      "annotated_file": null,
       "annotation_file": "annotations/sample_07_c1_transverse_annotation.xml",
       "slider_ready": true
     },
@@ -107,9 +163,17 @@
       ],
       "num_classes": 1,
       "objects": 1,
+      "image_size": {
+        "width": 1280,
+        "height": 1280
+      },
+      "resized_from": {
+        "width": 2048,
+        "height": 2048
+      },
       "annotation_mode": "bbox",
       "annotation_format": "voc",
-      "annotated_file": "annotated/sample_08_c1_transverse_annotated.png",
+      "annotated_file": null,
       "annotation_file": "annotations/sample_08_c1_transverse_annotation.xml",
       "slider_ready": true
     },
@@ -121,9 +185,17 @@
       ],
       "num_classes": 1,
       "objects": 1,
+      "image_size": {
+        "width": 1280,
+        "height": 960
+      },
+      "resized_from": {
+        "width": 1280,
+        "height": 960
+      },
       "annotation_mode": "bbox",
       "annotation_format": "voc",
-      "annotated_file": "annotated/sample_09_c1_longitudinal_annotated.png",
+      "annotated_file": null,
       "annotation_file": "annotations/sample_09_c1_longitudinal_annotation.xml",
       "slider_ready": true
     },
@@ -135,9 +207,17 @@
       ],
       "num_classes": 1,
       "objects": 2,
+      "image_size": {
+        "width": 1280,
+        "height": 960
+      },
+      "resized_from": {
+        "width": 1280,
+        "height": 960
+      },
       "annotation_mode": "bbox",
       "annotation_format": "voc",
-      "annotated_file": "annotated/sample_10_c1_sealed_annotated.png",
+      "annotated_file": null,
       "annotation_file": "annotations/sample_10_c1_sealed_annotation.xml",
       "slider_ready": true
     }

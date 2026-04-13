@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
 <annotation>
 	<folder>龟裂</folder>
 	<filename>091002717-006314-006314_266.JPG</filename>
@@ -6,8 +7,8 @@
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>2048</width>
-		<height>2048</height>
+		<width>1280</width>
+		<height>1280</height>
 		<depth>1</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,10 +18,10 @@
 		<truncated>1</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>90</xmin>
-			<ymin>6</ymin>
-			<xmax>1065</xmax>
-			<ymax>2048</ymax>
+			<xmin>56</xmin>
+			<ymin>4</ymin>
+			<xmax>666</xmax>
+			<ymax>1279</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -29,10 +30,10 @@
 		<truncated>1</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1220</xmin>
-			<ymin>23</ymin>
-			<xmax>1938</xmax>
-			<ymax>2048</ymax>
+			<xmin>762</xmin>
+			<ymin>14</ymin>
+			<xmax>1211</xmax>
+			<ymax>1279</ymax>
 		</bndbox>
 	</object>
 </annotation>
