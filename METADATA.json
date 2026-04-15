@@ -4,7 +4,7 @@
     "id": "crackdn-object-detection",
     "name": "CrackDN",
     "short_name": "crackdn-od",
-    "description": "Object detection packaging of CrackDataset_DL_HY for sealed/unsealed and multi-type pavement crack detection in complex backgrounds.",
+    "description": "Object detection packaging of CrackDN (CrackDataset_DL_HY SematicSeg_Dataset) for sealed/unsealed and multi-type pavement crack detection in complex backgrounds.",
     "year": 2019
   },
   "project_context": {
@@ -118,7 +118,7 @@
   "authors": [
     {
       "name": "Ju Huyan",
-      "affiliation": "Southeast University",
+      "affiliation": "University of Waterloo",
       "role": "Dataset Creator"
     },
     {
