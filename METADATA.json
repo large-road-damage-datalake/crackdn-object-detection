@@ -13,14 +13,12 @@
       "object_detection"
     ],
     "damage_types": [
-      "alligator",
-      "longitudinal",
-      "transverse",
-      "sealed"
+      "crack"
     ],
     "task_classification": {
       "primary_task": "object_detection"
-    }
+    },
+    "label_taxonomy_version": "road_damage_v1"
   },
   "imaging_setup": {
     "camera": "Vehicle-mounted and handheld acquisition devices",
@@ -51,25 +49,33 @@
           "id": 1,
           "name": "alligator",
           "description": "Alligator crack",
-          "color": "#CC0000"
+          "color": "#CC0000",
+          "canonical_name": "crack.alligator",
+          "instances": 627
         },
         {
           "id": 2,
           "name": "longitudinal",
           "description": "Longitudinal crack",
-          "color": "#FF7F0E"
+          "color": "#FF7F0E",
+          "canonical_name": "crack.longitudinal",
+          "instances": 601
         },
         {
           "id": 3,
           "name": "transverse",
           "description": "Transverse crack",
-          "color": "#1F77B4"
+          "color": "#1F77B4",
+          "canonical_name": "crack.transverse",
+          "instances": 1093
         },
         {
           "id": 4,
           "name": "sealed",
           "description": "Sealed crack",
-          "color": "#2CA02C"
+          "color": "#2CA02C",
+          "canonical_name": "crack.sealed",
+          "instances": 426
         }
       ]
     }
@@ -92,7 +98,7 @@
     "split": {
       "data": {
         "n_images": 2438,
-        "percentage": 1.0,
+        "percentage": 1,
         "n_images_with_annotations": 2240,
         "annotation_coverage": 0.9188,
         "dataset_size": "1.55 GB",
@@ -170,5 +176,89 @@
     "article_title": "Detection of sealed and unsealed cracks with complex backgrounds using deep convolutional neural network",
     "journal": "Automation in Construction",
     "year": 2019
+  },
+  "class_taxonomy": {
+    "version": "road_damage_v1",
+    "classes": [
+      {
+        "canonical_name": "crack.alligator",
+        "display_name": "Alligator Crack",
+        "damage_family": "crack",
+        "damage_subtype": "alligator",
+        "role": "damage_target",
+        "is_damage_target": true,
+        "aliases": [
+          "alligator",
+          "Alligator crack",
+          "Aligator Crack"
+        ],
+        "source_labels": [
+          "alligator"
+        ],
+        "taxonomy_source": "registry",
+        "taxonomy_unresolved": false
+      },
+      {
+        "canonical_name": "crack.longitudinal",
+        "display_name": "Longitudinal Crack",
+        "damage_family": "crack",
+        "damage_subtype": "longitudinal",
+        "role": "damage_target",
+        "is_damage_target": true,
+        "aliases": [
+          "longitudinal",
+          "Longitudinal crack",
+          "Lane Longitudinal Crack"
+        ],
+        "source_labels": [
+          "longitudinal"
+        ],
+        "taxonomy_source": "registry",
+        "taxonomy_unresolved": false
+      },
+      {
+        "canonical_name": "crack.sealed",
+        "display_name": "Sealed Crack",
+        "damage_family": "crack",
+        "damage_subtype": "sealed",
+        "role": "repair",
+        "is_damage_target": false,
+        "aliases": [
+          "sealed",
+          "sealed_crack",
+          "Sealed Longitudinal Crack",
+          "Sealed Reflective Crack",
+          "Sealed Block Crack",
+          "Sealed Transvers Cracks"
+        ],
+        "source_labels": [
+          "sealed"
+        ],
+        "taxonomy_source": "registry",
+        "taxonomy_unresolved": false
+      },
+      {
+        "canonical_name": "crack.transverse",
+        "display_name": "Transverse Crack",
+        "damage_family": "crack",
+        "damage_subtype": "transverse",
+        "role": "damage_target",
+        "is_damage_target": true,
+        "aliases": [
+          "transverse",
+          "Transverse crack",
+          "Transvers Crack"
+        ],
+        "source_labels": [
+          "transverse"
+        ],
+        "taxonomy_source": "registry",
+        "taxonomy_unresolved": false
+      }
+    ],
+    "damage_types": [
+      "crack"
+    ],
+    "unresolved_labels": []
   }
 }
